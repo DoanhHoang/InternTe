@@ -1,0 +1,52 @@
+@use "../../../assets/styles/" as *;
+.banneritems{
+  flex-direction: column;
+  display: flex;
+  gap:15px;
+  .banneritem {
+    display: flex;
+    gap: 15px;
+  img {
+    width: 157px;
+    height: 89px;
+  }
+  &-wrap{
+      display: flex;
+      flex-direction: column;
+      span{
+        font-size: 18px;
+        font-weight: 600;
+        font-stretch: normal;
+        text-align: left;
+        color: #070707;
+      }
+      p{
+        width: 272px;
+        height: 25px;
+        font-size: 12px;
+        font-weight: 300;
+        font-stretch: normal;
+        text-align: left;
+        color: #070707;
+      }
+  }
+  &-icons{
+    display: flex;
+    gap:15px;
+    &--wrap {
+        display: flex;
+        gap:20px;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+    }
+    img{
+        width: 14px;
+        height: 12px;
+    }
+  }
+}
+}
+

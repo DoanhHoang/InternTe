@@ -1,0 +1,27 @@
+@use '/src/assets/styles/' as *;
+
+.dataitem {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 500px;
+    max-height: 400px;
+    border-radius: 50px;
+    border: 3px solid $white2-color;
+
+    &-title{
+        color:$white2-color;
+        font-size:25px;
+        text-align: center;
+    }
+    &-img{
+        text-align: center;
+        img 
+        {
+            width: 500px;
+            height: 300px;
+            object-fit: contain;
+            
+        }
+    }
+}

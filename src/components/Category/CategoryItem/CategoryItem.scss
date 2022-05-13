@@ -1,0 +1,25 @@
+@use "/src/assets/styles/" as *;
+
+.CategoryItem {
+  display: flex;
+  width: 200px;
+  height: 80px;
+  margin: 10px 5px 0px 10px;
+  align-items: center;
+  background-color: $black-color;
+  p {
+    max-width: 100px;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    text-align: center;
+    color: $white-color;
+    
+  }
+  
+  
+
+}
+
+

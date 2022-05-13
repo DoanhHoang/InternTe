@@ -1,0 +1,130 @@
+@use "/src/assets/styles/" as *;
+
+.ModalHeader {
+  width: 1200px;
+  margin: 0 20px 64px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  &-User {
+    display: flex;
+    padding-top: 40px;
+    img {
+      width: 119px;
+      height: 119px;
+      object-fit: contain;
+    }
+  }
+  &-wrap {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      width: 447px;
+      font-size: 30px;
+      font-weight: 500;
+      text-align: left;
+      color: $black-color;
+    }
+    h2 {
+      font-size: 15.5px;
+      font-weight: 300;
+      text-align: left;
+    }
+    &--Name {
+      width: 95px;
+      color: $black-color;
+    }
+    &--Category {
+      width: 255px;
+      color: $grey-color;
+    }
+  }
+  &-button {
+    display: flex;
+    gap: 15px;
+    button {
+      font-size: 12px;
+      width: 140px;
+      height: 40px;
+      margin: 20px 5px 0px 4px;
+      padding: 13px 40px 13px 38px;
+      border: solid 1px $black-color;
+    }
+    &--like {
+      background-color: $white-color;
+    }
+    &--another {
+      background-color: $black-color;
+      color: $white-color;
+    }
+  }
+  &-Right {
+    button {
+      width: 180px;
+      height: 40px;
+      margin: 140px 5px 0px 4px;
+      padding: 13px 40px 13px 38px;
+      border: solid 1px $black-color;
+      background-color: $white-color;
+    }
+  }
+  &-Righttab {
+    &--button {
+      display: none;
+      width: 180px;
+      height: 40px;
+      margin: 140px 5px 0px 4px;
+      padding: 13px 40px 13px 38px;
+      border: solid 1px $black-color;
+      background-color: $white-color;
+    }
+  }
+}
+.ModalMobile {
+  display: none;
+  flex-direction: column;
+  margin: 77px 86px 0px;
+  &--img {
+    margin: 10px 10px 10px;
+  }
+  &--button{
+    display: flex;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px 0px 0px ;
+    cursor: pointer;
+    border: solid 1px $black-color;
+    background-color: $white-color;
+    text-align: center;
+  }
+}
+@media (max-width: 1200px) {
+  .ModalHeader {
+    &-Right {
+      display: none;
+    }
+    &-Righttab {
+      &--button {
+        display: flex;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .ModalHeader {
+    &-User {
+      display: none;
+      img{
+        display: none;
+      }
+    }
+    &-Right {
+      display: none;
+    }
+  }
+  .ModalMobile {
+    display: flex;
+  }
+}

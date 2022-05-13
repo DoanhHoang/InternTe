@@ -1,0 +1,48 @@
+@use "/src/assets/styles/" as *;
+
+.contactBar {
+  display: flex;
+  max-width: 1920px;
+  width: auto;
+  height: 28px;
+  padding: 6px 30px;
+  background-color: $black-color;
+  justify-content: space-between;
+  &-a {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    text-align: left;
+    color: $white-color;
+  }
+  &-a1 {
+    font-size: 12px;
+    font-weight: 200;
+    font-stretch: normal;
+    text-align: left;
+    color: $white-color;
+  }
+  &-a3 {
+    font-size: 12px;
+    font-weight: 200;
+    font-stretch: normal;
+    text-align: left;
+    color: $grey-color;
+  }
+  &-left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  &-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    img {
+      width: 17px;
+      height: 17px;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+}

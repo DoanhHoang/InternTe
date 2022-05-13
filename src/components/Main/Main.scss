@@ -1,0 +1,37 @@
+@use "/src/assets/styles/" as *;
+
+.pagemain {
+  max-width: 1920px;
+  width: auto;
+  padding: 60px 20px 0px;
+  &-pick {
+    display: flex;
+    gap: 30px;
+    &--a {
+      cursor: pointer;
+      height: 18px;
+      font-size: 18px;
+      font-weight: 500;
+      font-stretch: normal;
+      text-align: left;
+      color: $black-color;
+      
+    }
+    &--selected {
+      font-weight: 600;
+      position: relative;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid $black-color;
+    }
+  }
+  &-list{
+      display:flex;
+      width:100%;
+      gap:15px;
+      flex-wrap: wrap;
+
+  }
+  #modal:target
+  {color:red;}
+}

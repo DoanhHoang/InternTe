@@ -1,0 +1,150 @@
+@use "/src/assets/styles/" as *;
+
+.header {
+  display: flex;
+  max-width: 1920px;
+  height: 60px;
+  width: auto;
+  padding: 0px 29px 0px;
+  background-color: $black-color;
+  justify-content: space-between;
+  &-a {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    text-align: center;
+    color: $grey-color;
+  }
+  &-left {
+    align-items: center;
+    display: flex;
+    gap: 29px;
+    img {
+      width: 180px;
+      margin: 1px 10px 0px 0;
+      object-fit: contain;
+    }
+    
+  }
+
+  &-mid {
+    padding-top: 5px;
+    input {
+      background-color: $black-color;
+      padding: 11px 26px;
+      width: 600px;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      text-align: left;
+      color: $white2-color;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid $white2-color;
+    }
+    ::placeholder {
+      color: $white2-color;
+    }
+  }
+  &-right {
+      img{
+        width: 21px;
+        height: 21px;
+      }
+    display: flex;
+      gap:30px;
+      align-items: center;
+      a{text-decoration: none}
+    }
+    &-righttab {
+    display:none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    text-align: center;
+    color: $grey-color;
+    }
+    &-midtab {
+      align-items: center;
+      display: none;
+      padding-top: 5px;
+      input {
+        background-color: $black-color;
+        padding: 11px 26px;
+        max-width: 600px;
+        width:auto;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        text-align: left;
+        color: $white2-color;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid $white2-color;
+      }
+      ::placeholder {
+        color: $white2-color;
+      }
+      img{
+        width: 21px;
+        height: 21px;
+      }
+    }
+    &-mobile{
+      display:none;
+      align-items: center;
+      gap: 29px;
+      img {
+        height:29px;
+        width: 180px;
+        margin: 1px 10px 0px 0;
+        object-fit: contain;
+      }
+    }
+
+}
+
+@media (max-width: 1200px) {
+  .header{
+    &-mid{
+      display: none;
+    }
+    &-right{
+      display:none;
+    }
+    &-righttab{
+      display: flex;
+    }
+    &-midtab{
+      display:flex;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .header{
+    &-mobile{
+      display: flex;
+    }
+    &-left{
+      display:none;
+    }
+    &-mid{
+      display: none;
+    }
+    &-right{
+      display:none;
+    }
+    &-righttab{
+      display: none;
+    }
+    &-midtab{
+      display:none;
+    }
+  }
+}
+

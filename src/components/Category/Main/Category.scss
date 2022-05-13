@@ -1,0 +1,31 @@
+@use "/src/assets/styles/" as *;
+
+.category {
+  display: flex;
+  max-width: 1920px;
+  width: auto;
+  position: relative;
+  overflow: hidden;
+  &-wrapper{
+      display: flex;
+      
+  }
+  
+  &-left{
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+    left: 16px;
+
+  }
+  &-right{
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+    right: 16px;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: $red-color;
+}
+}

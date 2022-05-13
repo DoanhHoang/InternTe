@@ -1,0 +1,25 @@
+@use "/src/assets/styles/" as *;
+.ModalMain {
+  text-align: center;
+
+    img {
+        width: 1140px;
+        height: 645px;
+        margin: 70px 4px 50px 5px;
+        object-fit: contain;
+      }
+  
+  span {
+      display: flex;
+      margin-left:10px;
+    width: 1200px;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+    color: $black-color;
+  }
+
+}
+
+
+
