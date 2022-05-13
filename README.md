@@ -1,5 +1,11 @@
 # NOTE
 -Total Time :14h
+- Request:
+1. DataBinding
+2. Home Page
+3. Modal
+4. Font
+5. Responsive
 
 
 ## Available Scripts
