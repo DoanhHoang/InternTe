@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "./static/css/main.409088f4.css",
+    "main.js": "./static/js/main.cb7cf42b.js",
+    "static/js/787.ba50fc93.chunk.js": "./static/js/787.ba50fc93.chunk.js",
+    "static/media/upload-video-img-1@3x.png": "./static/media/upload-video-img-1@3x.3b0f21696553d8254176.png",
+    "static/media/upload-video-img-3@2x.png": "./static/media/upload-video-img-3@2x.fcc471c1a48081c42316.png",
+    "static/media/upload-video-img-4@2x.png": "./static/media/upload-video-img-4@2x.b60b1196d3fe9f2ba200.png",
+    "static/media/upload-video-img-2@2x.png": "./static/media/upload-video-img-2@2x.83997602771463bd3161.png",
+    "static/media/ref-img-9.png": "./static/media/ref-img-9.e4fbab513d00cc6c9b06.png",
+    "static/media/tutorial-img-1.png": "./static/media/tutorial-img-1.63fa6d75241e8abd588a.png",
+    "static/media/ref-img-1.png": "./static/media/ref-img-1.554950007e53e79267a3.png",
+    "static/media/ref-img-11.png": "./static/media/ref-img-11.c4cc4e30360914ea26b5.png",
+    "static/media/ref-img-2.png": "./static/media/ref-img-2.11a6d560e8d28747dff1.png",
+    "static/media/ref-img-4.png": "./static/media/ref-img-4.0cc9fff98015afc2bdfa.png",
+    "static/media/ref-img-15.png": "./static/media/ref-img-15.21603459af2a517507d0.png",
+    "static/media/ref-img-13.png": "./static/media/ref-img-13.424b913878696c83ef00.png",
+    "static/media/ref-img-6.png": "./static/media/ref-img-6.d54ed527c28ce7eb7320.png",
+    "static/media/ref-img-3.png": "./static/media/ref-img-3.7e42fe021ebff68b16c8.png",
+    "static/media/ref-img-14.png": "./static/media/ref-img-14.40986bdfadb913210645.png",
+    "static/media/ref-img-10.png": "./static/media/ref-img-10.36b201a4a1ee27dd8ac9.png",
+    "static/media/clipart365828.png": "./static/media/clipart365828.745580e91f9a46765063.png",
+    "static/media/ref-img-12.png": "./static/media/ref-img-12.4726502c50ef8c0079a9.png",
+    "static/media/ref-img-8.png": "./static/media/ref-img-8.d92a945c70584fdd2ed5.png",
+    "static/media/upload-my-profile-1.png": "./static/media/upload-my-profile-1.398d8f39927d11ca32bc.png",
+    "static/media/ref-img-5.png": "./static/media/ref-img-5.48b6aca91585b204016f.png",
+    "index.html": "./index.html",
+    "main.409088f4.css.map": "./static/css/main.409088f4.css.map",
+    "main.cb7cf42b.js.map": "./static/js/main.cb7cf42b.js.map",
+    "787.ba50fc93.chunk.js.map": "./static/js/787.ba50fc93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.409088f4.css",
+    "static/js/main.cb7cf42b.js"
+  ]
+}
